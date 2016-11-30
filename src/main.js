@@ -1,6 +1,26 @@
 import Vue from 'vue'
 import App from './App'
 import router from './routers'
+// import Vue from 'vue'
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.css'
+
+Vue.use(VueMaterial)
+
+Vue.material.theme.registerAll({
+  default: {
+    primary: 'cyan',
+    accent: 'pink'
+  },
+  indigo: {
+    primary: 'indigo',
+    accent: 'pink'
+  },
+  teal: {
+    primary: 'teal',
+    accent: 'pink'
+  }
+})
 // import IScroll from 'iscroll'
 // import $ from 'jquery'
 

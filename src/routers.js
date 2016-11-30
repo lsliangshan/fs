@@ -8,7 +8,7 @@ import Home from './components/home.vue'
 import Login from './components/login.vue'
 import Register from './components/register.vue'
 import Forget from './components/forget.vue'
-import SurveyList from './components/surcvey/survey.vue'
+import Survey from './components/surcvey/survey.vue'
 
 Vue.use(VueRouter)
 
@@ -27,11 +27,11 @@ const routes = [
   },
   {
     path: '/survey/index',
-    component: SurveyList
+    component: Survey
   },
   {
     path: '/survey/index/id/:id/s/:step',
-    component: SurveyList
+    component: Survey
   },
   {
     path: '/',

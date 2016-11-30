@@ -1,5 +1,8 @@
 <template>
-  <div class="survey-index" v-text="currentSurvey.title">
+  <div class="survey-index">
+    <router-link :to="'/survey/index/id/' + currentSurvey.id + '/s/1'">
+      <md-button class="md-raised md-primary" v-md-theme="'teal'">填写问卷</md-button>
+    </router-link>
   </div>
 </template>
 <style scoped lang="scss">
@@ -7,9 +10,10 @@
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
+
 </style>
 <script>
   export default {
