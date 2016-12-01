@@ -1,17 +1,17 @@
 <template>
   <div class="main" v-show="isLogin">
-    <ls-header></ls-header>
+    <!--<ls-header></ls-header>-->
   </div>
 </template>
 <style>
 
 </style>
 <script>
-  import lsHeader from './templates/header.vue'
+//  import lsHeader from './templates/header.vue'
   export default {
     name: 'home',
     components: {
-      lsHeader
+//      lsHeader
     },
     data () {
       if (!this.$root.isLogin) {

@@ -11,7 +11,7 @@
       </ul>
     </div>
     <div class="info">
-      <router-link to="/login" class="message">
+      <router-link to="/message" class="message">
         <img src="../../../static/img/message.png">
       </router-link>
       <div class="avatar">

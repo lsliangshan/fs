@@ -9,6 +9,7 @@ import Login from './components/login.vue'
 import Register from './components/register.vue'
 import Forget from './components/forget.vue'
 import Survey from './components/surcvey/survey.vue'
+import Message from './components/message/message.vue'
 
 Vue.use(VueRouter)
 
@@ -32,6 +33,10 @@ const routes = [
   {
     path: '/survey/index/id/:id/s/:step',
     component: Survey
+  },
+  {
+    path: '/message',
+    component: Message
   },
   {
     path: '/',

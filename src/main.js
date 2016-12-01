@@ -212,12 +212,13 @@ new Vue({
   router,
   template: '<App/>',
   data: {
-    isLogin: true,
+    isLogin: false,
     loginInfo: {
       username: '18311032722',
       company: 'XXX公司'
     },
     appName: '人力资源在线调查系统',
+    author: 'Keith',
     lang: {
       10001: '用户名不能为空',
       10002: '用户名格式不正确',

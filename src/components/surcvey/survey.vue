@@ -1,6 +1,6 @@
 <template>
   <div class="survey-list-container">
-    <ls-header></ls-header>
+    <!--<ls-header></ls-header>-->
     <div class="survey-list">
       <survey-menu></survey-menu>
       <div class="survey-content">
@@ -80,10 +80,11 @@
     height: 100%;
     .survey-list {
       width: 100%;
-      height: calc(100% - 72px);
+      height: 100%;
       display: flex;
       align-items: flex-start;
       justify-content: flex-start;
+      flex-direction: row;
       .survey-content {
         width: 100%;
         height: 100%;
@@ -169,7 +170,7 @@
   }
 </style>
 <script>
-  import lsHeader from '../templates/header.vue'
+//  import lsHeader from '../templates/header.vue'
   import surveyMenu from './surveyMenu.vue'
   import surveyIndex from './surveyIndex.vue'
   import surveyStep from './surveyStep.vue'
@@ -201,7 +202,7 @@
       }
     },
     components: {
-      lsHeader,
+//      lsHeader,
       surveyMenu,
       surveyIndex,
       surveyStep
