@@ -59,6 +59,7 @@
         height: 46px;
         margin: 15px 0;
         padding: 0 8px;
+        display: flex;
       }
       .password {
         position: relative;
@@ -70,14 +71,13 @@
           width: auto;
           color: #999;
           font-size: 14px;
-          line-height: 50px;
         }
       }
       input {
         display: inline-block;
         width: 100%;
-        line-height: 46px;
-        height: 42px;
+        /*line-height: 46px;*/
+        /*height: 42px;*/
         border: none;
       }
       .login {

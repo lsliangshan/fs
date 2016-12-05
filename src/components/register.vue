@@ -62,10 +62,9 @@
       max-width: 480px;
       .form-item {
         border: 1px solid #c8c8c8;
-        line-height: 48px;
-        height: 46px;
         margin: 15px 0;
         padding: 0 8px;
+        display: flex;
       }
       .password {
         position: relative;
@@ -77,7 +76,7 @@
           width: auto;
           color: #999;
           font-size: 14px;
-          line-height: 50px;
+          line-height: 42px;
           img {
             width: 14px;
             height: 14px;
@@ -95,7 +94,7 @@
           width: auto;
           color: #999;
           font-size: 14px;
-          line-height: 50px;
+          line-height: 42px;
         }
       }
       input {
